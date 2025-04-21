@@ -1,0 +1,16 @@
+[project]
+name = "handson-ml3-pytorch"
+version = "0.1.0"
+description = "Hands-On Machine Learning with PyTorch - Project Environment"
+authors = ["Your Name <carlton2tang@gmail.com>"]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib>=3.7.5",
+    "numpy>=1.24.4",
+    "pandas>=2.0.3",
+    "scikit-learn>=1.3.2",
+]
+
+[tool.uv]
+# uv-specific configuration can go here if needed
